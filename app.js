@@ -17,7 +17,7 @@ app.get('/results', function(req, res){
     request(url, function(error, response, body){
         if(!error && responseCode == 200){
             var data = JSON.parse(body);
-            res.render('results', {data : data} );
+            res.render('results', {data: data} );
         }
     });    
 });
