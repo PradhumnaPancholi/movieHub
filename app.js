@@ -13,7 +13,7 @@ app.get('/', function(req, res){
 //for displaying result//
 app.get('/results', function(req, res){
     var search = req.query.search;
-    var url = 'http://www.omdbapi.com/?t='+search+'&apikey=thewdb'
+    var url = 'http://www.omdbapi.com/?s='+search+'&apikey=thewdb';
     request(url, function(error, response, body){
         if(!error && responseCode == 200){
             var data = JSON.parse(body);
