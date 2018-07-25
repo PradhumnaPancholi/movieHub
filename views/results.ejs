@@ -1,10 +1,10 @@
 <% include partials/header %>
     <ul>
-        <% data['Search'].forEach(function(movie){
+        <% data['Search'].forEach(function(movie){ %>
             <li>
                 <%= movie['Title'] %> - <%= movie['Year'] %>
             </li>
-        <% });%>
+        <% })%>
     </ul>
     <a href = '/'>Back</a>
 <% include partials/footer %>
