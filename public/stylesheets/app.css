@@ -1,4 +1,18 @@
+body{
+    background-image: url(https://images.pexels.com/photos/46794/camera-photos-photograph-paper-prints-46794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+}
 .form{
     margin-top: 100px;
     width: 50%;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    color: grey;
+}
+
+button.hover{
+    color: #427af4;
 }
