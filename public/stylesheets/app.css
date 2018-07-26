@@ -8,13 +8,5 @@ body{
 }
 
 input{
-    text-align: center;
-}
-
-.button{
-    color: grey;
-}
-
-button.hover{
-    color: #427af4;
+    margin: 0 auto;
 }
