@@ -9,8 +9,9 @@ body{
     width: 50%;
 }
 
-.fields{
+.inline fields{
     text-align: center;
+    margin: auto;
 }
 
 
