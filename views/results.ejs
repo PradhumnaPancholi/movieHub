@@ -2,11 +2,11 @@
     <ul>
         <% data['Search'].forEach(function(movie){ %>
             <li>
-                <div class = 'ui segment'>
+                <div class = 'ui segment inverted'>
                     <%= movie['Title'] %> - <%= movie['Year'] %>
                 </div>   
             </li>
         <% })%>
     </ul>
-    <a href = '/'>Back</a>
+    <button class = 'ui primary button' href = '/'>Back</button>
 <% include partials/footer %>
