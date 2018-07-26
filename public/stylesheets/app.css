@@ -9,7 +9,7 @@ body{
     width: 50%;
 }
 
-.inline fields{
+#input{
     text-align: center;
     margin: auto;
 }
