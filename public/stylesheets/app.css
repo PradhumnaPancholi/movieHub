@@ -3,8 +3,9 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     height: 100%; 
-    background-size: cover;
-    text-align: center
+    background-size: auto;
+    background-attachment: fixed;
+    
 }
 
 .input{
