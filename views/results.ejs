@@ -2,7 +2,9 @@
     <ul>
         <% data['Search'].forEach(function(movie){ %>
             <li>
-                <%= movie['Title'] %> - <%= movie['Year'] %>
+                <div class = 'ui segment'>
+                    <%= movie['Title'] %> - <%= movie['Year'] %>
+                </div>   
             </li>
         <% })%>
     </ul>
