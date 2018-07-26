@@ -2,15 +2,16 @@ var express = require('express');
 var app = express();
 var request = require('request');
 
-//setting up view engine//
+//app config //
 app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
-//for landing page//
+//landing page//
 app.get('/', function(req, res){
     res.render('home');
 });
 
-//for displaying result//
+//displaying result//
 app.get('/results', function(req, res){
     var search = req.query.search;
     var url = 'http://www.omdbapi.com/?s='+search+'&apikey=thewdb';
@@ -22,7 +23,7 @@ app.get('/results', function(req, res){
     });    
 });
 
-//setting up server//
+//server config//
 app.listen(process.env.PORT, process.env.IP, function(){
     console.log('Movie Hub is online');
 });
