@@ -4,8 +4,6 @@ body{
     background-position: center;
     height: 100%; 
     background-size: auto;
-    background-attachment: fixed;
-    
 }
 
 .input{
@@ -17,7 +15,7 @@ body{
 }
 
 .segment{
-    width: 50%;
+    width: 8em;
     text-align: center;
     margin-left: 25%;
     margin-right: 25%;
