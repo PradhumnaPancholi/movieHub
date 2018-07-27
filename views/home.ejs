@@ -1,14 +1,12 @@
 <% include partials/header %>
-<!--navbar-->
-<div class = 'ui fixed inverted menu'>
-    <div class = 'item'>MovieHubb</div>
-</div>
 
 <!--form/searchbar for search input-->
 <form action = "/results" method = "GET">
-    <div class = 'ui fluid action input' >
-        <input type = "text" name = "search" placeholder = "search title">
-        <button class = "ui primary button" type = "submit">Search</button>
+    <div class = 'container' >
+        <div class = 'input-group'>
+            <input class = "form-control" type = "text" name = "search" placeholder = "search title">
+            <button class = "btn btn-info" type = "submit">Search</button>
+        </div> 
     </div>   
 </form>
 <% include partials/footer %>
