@@ -1,19 +1,20 @@
 .navbar-brand{
     float: none;
     text-align: center;
+    font-size: 40px;
 }
 
 .jumbotron{
     background-image: url(https://images.unsplash.com/photo-1532702580454-a0a962f763a6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=246ece34c050ee745d9be09fd696d1ee&auto=format&fit=crop&w=720&q=80);
     background-repeat: no-repeat;
-    height: 80%;
+    height: 100%;
 }
 
 p{
     font-family: 'Do Hyeon', sans-serif;
     color: white;
     font-size: 20px;
-    line-height: 5px;
+    line-height: 10px;
 }
 
 li{
