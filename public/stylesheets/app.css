@@ -9,20 +9,20 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    background-size: cover;
-    position:relative;
+    background-position: center;
 }
 
 p{
     font-family: 'Do Hyeon', sans-serif;
     text-align: center;
     color: white;
-    font-size: 80%;
-    line-height: 80%;
+    font-size: 100%;
+    line-height: 100%;
 }
 
 #auth{
-    text-align: left;
+    text-align: right;
+    font-size: 100%
 }
 
 li{
