@@ -9,7 +9,8 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    background-size: auto 100%;
+    background-size: 100%;
+    background-position: center;
 }
 
 p{
@@ -22,7 +23,8 @@ p{
 
 #auth{
     text-align: right;
-    font-size: 100%
+    font-size: 100%;
+    margin-right: 5%;
 }
 
 li{
