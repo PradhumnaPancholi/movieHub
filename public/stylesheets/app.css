@@ -1,25 +1,9 @@
-body{
-    background-image: url(https://images.pexels.com/photos/46794/camera-photos-photograph-paper-prints-46794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%; 
-    background-size: auto;
+li{
+    opacity: 0.5;
 }
 
-.input{
-    margin-top: 10%;
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.segment{
-    width: 8em;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 2px;
+li:hover{
+    opacity: 1;
 }
 
 
