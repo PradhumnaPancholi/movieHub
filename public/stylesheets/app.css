@@ -1,14 +1,18 @@
-
-
-container{
-    margin-top: 10%;
+.navbar-brand{
+    text-align: center;
+    color: white;
 }
+
 li{
     opacity: 0.5;
 }
 
 li:hover{
     opacity: 1;
+}
+
+.btn-primary{
+    text-align: center;
 }
 
 
