@@ -9,6 +9,13 @@
     height: 80%;
 }
 
+p{
+    font-family: 'Do Hyeon', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 5px;
+}
+
 li{
     opacity: 0.5;
 }
