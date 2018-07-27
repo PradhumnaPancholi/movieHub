@@ -1,5 +1,6 @@
 body{
     background-image: url(https://images.pexels.com/photos/1002634/pexels-photo-1002634.jpeg?auto=compress&cs=tinysrgb&h=350);
+    background-repeat: no-repeat;
 }
 
 container{
