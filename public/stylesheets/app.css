@@ -1,6 +1,6 @@
 .navbar-brand{
+    float: none;
     text-align: center;
-    color: white;
 }
 
 li{
