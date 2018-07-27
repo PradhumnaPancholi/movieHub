@@ -9,13 +9,16 @@
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
+    background-size: cover;
+    position:relative;
 }
 
 p{
     font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
     color: white;
-    font-size: 60%;
-    line-height: 20%;
+    font-size: 80%;
+    line-height: 80%;
 }
 
 #auth{
