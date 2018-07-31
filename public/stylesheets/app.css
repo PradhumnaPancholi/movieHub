@@ -20,6 +20,9 @@ body{
     background-position: center;
 }
 
+input{
+    width: 50%;
+}
 p{
     font-family: 'Do Hyeon', sans-serif;
     text-align: center;
