@@ -22,7 +22,7 @@ body{
 
 .input-group{
     width: 50%;
-    text-align: center;
+    margin: 0 auto;
 }
 p{
     font-family: 'Do Hyeon', sans-serif;
