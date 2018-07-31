@@ -40,10 +40,12 @@ p{
 ul{
     opacity: 0.3;
     background-color: none;
+    margin: 0%;
 }
 li{
-  
-    border:  1px solid black;
+    opacity: 0.3;
+    text: black;
+    border:  3px solid black;
 }
 
 li:hover{
