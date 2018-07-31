@@ -25,7 +25,8 @@ body{
 
 .input-group{
     width: 80%;
-
+    margin: 10% auto;
+  
 }
 p{
     font-family: 'Do Hyeon', sans-serif;
