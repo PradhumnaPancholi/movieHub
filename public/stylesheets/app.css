@@ -20,7 +20,7 @@ body{
     background-position: center;
 }
 
-input{
+.input-group{
     width: 50%;
 }
 p{
