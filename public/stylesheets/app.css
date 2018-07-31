@@ -37,7 +37,10 @@ p{
     font-size: 100%;
     margin-right: 5%;
 }
-
+ul{
+    opacity: 0.5;
+    background-color: none;
+}
 li{
     opacity: 0.5;
     background-color: none;
