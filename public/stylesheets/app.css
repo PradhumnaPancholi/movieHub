@@ -9,6 +9,7 @@ body{
     float: none;
     text-align: center;
     font-size: 50px;
+    margin: 0%;
 }
 
 .jumbotron{
@@ -18,10 +19,11 @@ body{
     width: 100%;
     background-size: 100%;
     background-position: center;
+    margin: 0%;
 }
 
 .input-group{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 p{
